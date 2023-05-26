@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Railway Login System - Login</title>
+	<style>
+		body {
+			background-color: #F5F5F5;
+			font-family: 'Roboto', sans-serif;
+		}
+		form {
+			margin: auto;
+			width: 50%;
+			padding: 25px;
+			background-color: #FFFFFF;
+			border-radius: 5px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			animation-name: slidein;
+			animation-duration: 1s;
+		}
+		h1 {
+			text-align: center;
+			color: #333333;
+			font-size: 2.5em;
+			margin-bottom: 25px;
+			text-transform: uppercase;
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin-bottom: 20px;
+			width: 100%;
+			border: none;
+			border-radius: 5px;
+			box-sizing: border-box;
+			font-size: 1.2em;
+			background-color: #F5F5F5;
+			transition: box-shadow 0.3s ease-in-out;
+		}
+		input[type="text"]:focus, input[type="password"]:focus {
+			box-shadow: none;
+		}
+		input[type="submit"] {
+			padding: 10px 25px;
+			background-color: #007FFF;
+			color: #FFFFFF;
+			border: none;
+			border-radius: 5px;
+			font-size: 1.2em;
+			font-weight: bold;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out;
+		}
+		
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<h1>Railway Reservation System - Login</h1>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
